@@ -149,10 +149,10 @@ header {
 // Iphone
  
 .responsive {
-    width: 45%;
+    width: 200px;
     display:flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin-top: 50px;
     text-align: justify;
     margin-left: 100px;
@@ -161,15 +161,15 @@ header {
 
     h1 {
       font-size: 2em;
-      word-break: break-all;
+      word-break:break-word;
     }
-
+  
     p {
       margin-top: 10px;
       max-height: 300px;
       font-size: 1.3em;
       line-height: 1.6;
-      word-break: break-all;
+      word-break: break-word;
       
 }
 }
