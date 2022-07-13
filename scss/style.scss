@@ -45,136 +45,127 @@ header {
 // Headeris
 
 // Juros backgroundas
-
-// .container {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   object-fit: contain;
-//   margin: auto;
-//   flex-direction: column;
-//   img {
-//     width: 100%;
-//     height: 700px;
-//     }
-//   ul {
-//   margin-top: 50px;
-//   padding: 18px;
-//   font-size: 2em;
-//   position: absolute;
-//   color: white;
-//   text-align: center;
-//   }  
-
-//   h3 {
-//    padding: 35px;
-//   }
-
-//   .different {
-//     width: 400px;
-//     height: 45px;
-//     display: flex;
-//     align-items: center;
-//     margin-top: 10px;
-//     margin-left: 15px;
-//     list-style: none;
-//     padding:10px;
-//     background: white;
-//     color: black;
-//     border-radius: 10px;
-//   }
-
-    .container {
-      display: flex;
-      align-items: center;
-      // margin-top: 60px;
-     
-      img {
-        width: 100%;
-        background-size: cover;
-        object-fit: contain;
-        
-      }
-    }
-      .centered {
-        width: 90%;
+    .centered {
         position: absolute;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        margin-top: 100px;
-        flex-wrap: wrap;
-        // top: 40%;
-        // left: 10%;
-        // transform: translate(-50%, -50%);
         
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      align-items: center;
+
+    .img {
+        width: 100%;
+        height: 700px;
+      }
+    
+    h3 {
+    margin-top: 100px;
+    padding: 35px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: white;
     }
 
-.different:nth-of-type(1){
+  .different {
+    width: 400px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    list-style: none;
+    padding:10px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 1.5em;
+  }
+  
+  .different:nth-of-type(1){
   color: grey;
-}
+  }
 
-.different:nth-of-type(2) {
+  .different:nth-of-type(2) {
   background: rgb(0, 123, 255);
   color: white;
   justify-content: center;
-}
+  } 
+} 
+// Juros backgroundas
 
+// Fully responsive, Bootstrap, Easy to Use
 .sectionas {
-  max-width: 90%;
+  margin-top: -100px;
+  padding: 40px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-top: 170px;
   text-align: justify;
-  padding: 35px;
-  word-wrap: break-word;
+
+  h1{
+    font-size: 2em;
+    
+  }
+  
   img {
     width: 30%;
     height: 30%;
     padding: 20px;
   }
-  h1 {
-    margin-top: 10px;
-  }
   p {
     margin-top: 15px;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    color: gray;
+    line-height: 1.6em;
 }
 }
-
-.photo {
-    display: flex;
-    justify-content:left
-}
-  
-
 .sectionas:nth-of-type(2){
-
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .sectionas:nth-of-type(3) {
-
-  margin-top: 50px;
+  margin-top: -10px;
   margin-bottom: 100px;
-}
-
-.responsive {
   
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  h1 {
-    margin-top: 50px;
-  }
+}
+// Fully responsive, Bootstrap, Easy to Use
 
-  p {
-    height: 70%;
+// Iphone
+.photo {
+  margin-top: 150px;
+  
+  .left {
+    height: 100%;
   }
 }
+// Iphone
  
+.responsive {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: 300px;
+    width: 90%;
+    inline-size: 270px;
+    text-align: justify;
+    margin-left: 100px;
+
+    h1 {
+      font-size: 2em;
+      word-break: break-all;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 1.3em;
+      line-height: 25px;
+    }
+}
+
