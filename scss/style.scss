@@ -171,6 +171,40 @@ header {
       font-size: 1.3em;
       line-height: 1.6;
       word-break: break-word;
-      
+      margin-bottom: 100px;
 }
 }
+    .people {
+      width: 52%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 100px;
+      flex-wrap: nowrap;
+      word-wrap:break-word;
+
+      img {
+        margin-top: 40px;
+        width: 160px;
+        border-radius: 100px;
+      }
+
+      h1 {
+        margin-top: 30px;
+        margin-left: -35px;
+        
+      }
+
+      h3 {
+        padding: 10px;
+        margin-left: 30px;
+      }
+
+      p {
+        margin-left: -50px;
+        justify-content: center;
+        color: gray;
+      }
+    }
+
+
