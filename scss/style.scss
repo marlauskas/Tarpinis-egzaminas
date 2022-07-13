@@ -48,7 +48,6 @@ header {
     .centered {
         position: absolute;
         text-align: center;
-        
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -101,6 +100,8 @@ header {
 
 // Fully responsive, Bootstrap, Easy to Use
 .sectionas {
+  width: 400px;
+  height: 400px;
   margin-top: -100px;
   padding: 40px;
   display: flex;
